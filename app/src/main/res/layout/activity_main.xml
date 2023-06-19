@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:hint="Enter EmailAddress"
+        android:textSize="30sp"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="100sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/but_login"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="50sp"
+        android:backgroundTint="#1E8A8E"
+        android:text="Log In"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_gravity="center_horizontal"
+        android:text="No account .Click here to Register"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+</LinearLayout>
